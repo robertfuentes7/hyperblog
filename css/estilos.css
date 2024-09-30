@@ -1,21 +1,25 @@
-body
-{
+body {
     color: #333;
     text-align: center;
-    font-family: arial;
+    font-family: Arial, sans-serif;
     font-size: 16px;
     margin: 0;
     padding: 0;
+    background-image: url('imagenes/dragon.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 2cm 2cm; /* Tamaño de la imagen del dragón */
 }
-#container
-{
+
+#container {
     width: 70%;
     padding: 2cm;
-    text align: left;
+    text-align: left; /* Corregí el error tipográfico en text-align */
     border: 1px solid #000;
     margin: 0 auto;
+    background-color: #f9f9f9; /* Añadido fondo claro al contenedor */
 }
-#container h1
-{
+
+#container h1 {
     font-size: 20px;
 }
